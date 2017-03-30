@@ -5,9 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-<!--## Unreleased-->
+## Unreleased
 
-<!-- List New Changes Here -->
+* Fixed issue where two copies of entrypoint files with same name are emitted by bundler stream: an un-bundled one, followed by bundled one.
+* Fixed issue where html imports were emitted by bundler as individual files even though they were bundled.
 
 ## [0.9.1] - 2017-03-20
 
